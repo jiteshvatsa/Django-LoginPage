@@ -1,0 +1,22 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+<style>
+
+  #grad1 {
+    height: 350px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(-90deg, #5433FF, #20BDFF, #a5fecb); /* Standard syntax (must be last) */
+  }
+  </style>
+<div class="container">
+  <div class="jumbotron" id="grad1">
+    <h1>Meetcaregivers</h1>
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username }}!</h2>
+    {% else %}
+        <h2>Welcome to the site!</h2>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}
