@@ -7,6 +7,6 @@ This project describe how to design a login page using **Django** framework.
 
 ### Project includes: 
 
-* How to add color gradient background
-* How to create authenticationin/ Login page in Django 
-* How to register user and then use those information for login. 
+* Add color gradient background
+* Create authenticationin/ Login page in Django 
+* Register user and then use those information for login. 
