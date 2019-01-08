@@ -1,3 +1,5 @@
+![Image Description](https://blog.eduonix.com/wp-content/uploads/2018/10/Django.jpg)
+
 # Django-LoginPage
 ## Login Page developed using Django
 
